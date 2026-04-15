@@ -1,0 +1,31 @@
+{
+  "form_id": "worker_registration",
+  "form_name": "Application for Registration",
+  "fields": [
+    {
+      "id": "name",
+      "question": "What is your full name?",
+      "type": "text"
+    },
+    {
+      "id": "sex",
+      "question": "What is your gender? (Male/Female/Transgender)",
+      "type": "choice"
+    },
+    {
+      "id": "dob",
+      "question": "What is your date of birth?",
+      "type": "date"
+    },
+    {
+      "id": "father_name",
+      "question": "What is your father's or husband's name?",
+      "type": "text"
+    },
+    {
+      "id": "address",
+      "question": "What is your permanent address?",
+      "type": "text"
+    }
+  ]
+}

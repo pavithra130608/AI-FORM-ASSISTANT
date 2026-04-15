@@ -1,0 +1,33 @@
+{
+  "form_id": "esi_family",
+  "form_name": "ESI Family Declaration",
+  "fields": [
+    {
+      "id": "insured_name",
+      "question": "What is the name of the insured person?",
+      "type": "text",
+      "required": true
+    },
+    {
+      "id": "insurance_no",
+      "question": "What is your insurance number?",
+      "type": "text",
+      "required": true
+    },
+    {
+      "id": "member_name",
+      "question": "Name of family member to be added or removed?",
+      "type": "text"
+    },
+    {
+      "id": "relation",
+      "question": "What is the relationship with the insured person?",
+      "type": "text"
+    },
+    {
+      "id": "dob",
+      "question": "Date of birth of the family member?",
+      "type": "date"
+    }
+  ]
+}

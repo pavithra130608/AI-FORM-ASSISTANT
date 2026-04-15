@@ -1,0 +1,32 @@
+{
+  "form_id": "death_certificate",
+  "form_name": "Medical Certificate of Cause of Death",
+  "fields": [
+    {
+      "id": "deceased_name",
+      "question": "What is the name of the deceased person?",
+      "type": "text",
+      "required": true
+    },
+    {
+      "id": "sex",
+      "question": "Gender of the deceased?",
+      "type": "choice"
+    },
+    {
+      "id": "age",
+      "question": "Age of the deceased?",
+      "type": "number"
+    },
+    {
+      "id": "cause_of_death",
+      "question": "What was the cause of death?",
+      "type": "text"
+    },
+    {
+      "id": "place_of_death",
+      "question": "Where did the death occur?",
+      "type": "text"
+    }
+  ]
+}

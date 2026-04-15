@@ -1,0 +1,31 @@
+{
+  "form_id": "adoption_birth",
+  "form_name": "Birth Report for Adopted Child",
+  "fields": [
+    {
+      "id": "child_name",
+      "question": "What is the name of the adopted child?",
+      "type": "text"
+    },
+    {
+      "id": "dob",
+      "question": "What is the child's date of birth?",
+      "type": "date"
+    },
+    {
+      "id": "adoptive_father",
+      "question": "Name of the adoptive father?",
+      "type": "text"
+    },
+    {
+      "id": "adoptive_mother",
+      "question": "Name of the adoptive mother?",
+      "type": "text"
+    },
+    {
+      "id": "address",
+      "question": "Permanent address of adoptive parents?",
+      "type": "text"
+    }
+  ]
+}
